@@ -1,5 +1,8 @@
 var path    = require('path');
 var webpack = require('webpack');
+var Promise = require('es6-promise').Promise;
+//require('es6-promise').polyfill();
+
 
 var config = {
   devtool: 'cheap-module-eval-source-map',

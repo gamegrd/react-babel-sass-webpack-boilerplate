@@ -4,7 +4,7 @@
  * Created 2015-12-21
  */
 import React, { PropTypes, Component } from 'react'
-  
+
 export default class Main extends Component {
   constructor() {
     super();
@@ -20,7 +20,7 @@ export default class Main extends Component {
         return false;
       }
     }
-   
+
     this.state.count++;
   }
 
@@ -36,3 +36,4 @@ export default class Main extends Component {
     )
   }
 }
+
